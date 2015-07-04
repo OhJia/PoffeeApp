@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEFD511C1B48A28C00359CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD511B1B48A28C00359CFC /* AppDelegate.swift */; };
+		CEFD511F1B48A28C00359CFC /* PoffeeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEFD511D1B48A28C00359CFC /* PoffeeApp.xcdatamodeld */; };
+		CEFD51211B48A28C00359CFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD51201B48A28C00359CFC /* ViewController.swift */; };
+		CEFD51241B48A28C00359CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFD51221B48A28C00359CFC /* Main.storyboard */; };
+		CEFD51261B48A28C00359CFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFD51251B48A28C00359CFC /* Images.xcassets */; };
+		CEFD51291B48A28C00359CFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFD51271B48A28C00359CFC /* LaunchScreen.xib */; };
+		CEFD51351B48A28C00359CFC /* PoffeeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD51341B48A28C00359CFC /* PoffeeAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFD512F1B48A28C00359CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFD510E1B48A28C00359CFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFD51151B48A28C00359CFC;
+			remoteInfo = PoffeeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEFD51161B48A28C00359CFC /* PoffeeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoffeeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFD511A1B48A28C00359CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFD511B1B48A28C00359CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFD511E1B48A28C00359CFC /* PoffeeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PoffeeApp.xcdatamodel; sourceTree = "<group>"; };
+		CEFD51201B48A28C00359CFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFD51231B48A28C00359CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFD51251B48A28C00359CFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEFD51281B48A28C00359CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEFD512E1B48A28C00359CFC /* PoffeeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoffeeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFD51331B48A28C00359CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFD51341B48A28C00359CFC /* PoffeeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoffeeAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFD51131B48A28C00359CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFD512B1B48A28C00359CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFD510D1B48A28C00359CFC = {
+			isa = PBXGroup;
+			children = (
+				CEFD51181B48A28C00359CFC /* PoffeeApp */,
+				CEFD51311B48A28C00359CFC /* PoffeeAppTests */,
+				CEFD51171B48A28C00359CFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFD51171B48A28C00359CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD51161B48A28C00359CFC /* PoffeeApp.app */,
+				CEFD512E1B48A28C00359CFC /* PoffeeAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFD51181B48A28C00359CFC /* PoffeeApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD511B1B48A28C00359CFC /* AppDelegate.swift */,
+				CEFD51201B48A28C00359CFC /* ViewController.swift */,
+				CEFD51221B48A28C00359CFC /* Main.storyboard */,
+				CEFD51251B48A28C00359CFC /* Images.xcassets */,
+				CEFD51271B48A28C00359CFC /* LaunchScreen.xib */,
+				CEFD511D1B48A28C00359CFC /* PoffeeApp.xcdatamodeld */,
+				CEFD51191B48A28C00359CFC /* Supporting Files */,
+			);
+			path = PoffeeApp;
+			sourceTree = "<group>";
+		};
+		CEFD51191B48A28C00359CFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD511A1B48A28C00359CFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEFD51311B48A28C00359CFC /* PoffeeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD51341B48A28C00359CFC /* PoffeeAppTests.swift */,
+				CEFD51321B48A28C00359CFC /* Supporting Files */,
+			);
+			path = PoffeeAppTests;
+			sourceTree = "<group>";
+		};
+		CEFD51321B48A28C00359CFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD51331B48A28C00359CFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFD51151B48A28C00359CFC /* PoffeeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFD51381B48A28C00359CFC /* Build configuration list for PBXNativeTarget "PoffeeApp" */;
+			buildPhases = (
+				CEFD51121B48A28C00359CFC /* Sources */,
+				CEFD51131B48A28C00359CFC /* Frameworks */,
+				CEFD51141B48A28C00359CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoffeeApp;
+			productName = PoffeeApp;
+			productReference = CEFD51161B48A28C00359CFC /* PoffeeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFD512D1B48A28C00359CFC /* PoffeeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFD513B1B48A28C00359CFC /* Build configuration list for PBXNativeTarget "PoffeeAppTests" */;
+			buildPhases = (
+				CEFD512A1B48A28C00359CFC /* Sources */,
+				CEFD512B1B48A28C00359CFC /* Frameworks */,
+				CEFD512C1B48A28C00359CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFD51301B48A28C00359CFC /* PBXTargetDependency */,
+			);
+			name = PoffeeAppTests;
+			productName = PoffeeAppTests;
+			productReference = CEFD512E1B48A28C00359CFC /* PoffeeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFD510E1B48A28C00359CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Jiashan Wu";
+				TargetAttributes = {
+					CEFD51151B48A28C00359CFC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CEFD512D1B48A28C00359CFC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CEFD51151B48A28C00359CFC;
+					};
+				};
+			};
+			buildConfigurationList = CEFD51111B48A28C00359CFC /* Build configuration list for PBXProject "PoffeeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFD510D1B48A28C00359CFC;
+			productRefGroup = CEFD51171B48A28C00359CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFD51151B48A28C00359CFC /* PoffeeApp */,
+				CEFD512D1B48A28C00359CFC /* PoffeeAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFD51141B48A28C00359CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFD51241B48A28C00359CFC /* Main.storyboard in Resources */,
+				CEFD51291B48A28C00359CFC /* LaunchScreen.xib in Resources */,
+				CEFD51261B48A28C00359CFC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFD512C1B48A28C00359CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFD51121B48A28C00359CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFD51211B48A28C00359CFC /* ViewController.swift in Sources */,
+				CEFD511F1B48A28C00359CFC /* PoffeeApp.xcdatamodeld in Sources */,
+				CEFD511C1B48A28C00359CFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFD512A1B48A28C00359CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFD51351B48A28C00359CFC /* PoffeeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFD51301B48A28C00359CFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFD51151B48A28C00359CFC /* PoffeeApp */;
+			targetProxy = CEFD512F1B48A28C00359CFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEFD51221B48A28C00359CFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFD51231B48A28C00359CFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFD51271B48A28C00359CFC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFD51281B48A28C00359CFC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFD51361B48A28C00359CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFD51371B48A28C00359CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFD51391B48A28C00359CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PoffeeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEFD513A1B48A28C00359CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PoffeeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEFD513C1B48A28C00359CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PoffeeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoffeeApp.app/PoffeeApp";
+			};
+			name = Debug;
+		};
+		CEFD513D1B48A28C00359CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PoffeeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoffeeApp.app/PoffeeApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFD51111B48A28C00359CFC /* Build configuration list for PBXProject "PoffeeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFD51361B48A28C00359CFC /* Debug */,
+				CEFD51371B48A28C00359CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFD51381B48A28C00359CFC /* Build configuration list for PBXNativeTarget "PoffeeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFD51391B48A28C00359CFC /* Debug */,
+				CEFD513A1B48A28C00359CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEFD513B1B48A28C00359CFC /* Build configuration list for PBXNativeTarget "PoffeeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFD513C1B48A28C00359CFC /* Debug */,
+				CEFD513D1B48A28C00359CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEFD511D1B48A28C00359CFC /* PoffeeApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEFD511E1B48A28C00359CFC /* PoffeeApp.xcdatamodel */,
+			);
+			currentVersion = CEFD511E1B48A28C00359CFC /* PoffeeApp.xcdatamodel */;
+			path = PoffeeApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEFD510E1B48A28C00359CFC /* Project object */;
+}
