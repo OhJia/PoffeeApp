@@ -3,7 +3,6 @@
 //  PoffeeApp
 //
 //  Created by Jiashan Wu on 7/4/15.
-//  Copyright (c) 2015 Jiashan Wu. All rights reserved.
 //
 
 import UIKit
